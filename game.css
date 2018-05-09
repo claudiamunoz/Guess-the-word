@@ -1,0 +1,25 @@
+  body {
+    border: solid 1px white;
+    color: mediumpurple;
+   background-color: floralwhite;
+}
+input {
+    background-color: deepskyblue;
+}
+button {
+    background-color:hotpink;
+}
+h1
+{
+    font-size: 80px;
+    color: deepskyblue;
+    font-family: cursive, Charcoal, sans-serif;
+}
+table {
+    color:mediumpurple
+}
+ div {
+                border: solid 1px white;
+                color: mediumpurple;
+                background-color: floralwhite;
+            }
