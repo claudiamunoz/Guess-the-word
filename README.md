@@ -1,0 +1,1 @@
+This game was created by Claudia for the Create part. You have three tries to guees the word or else it is game over. There are two hints that can help you to guess the word. You can only press one of the alphabet buttons to get a letter of the alphabet. This was made using git and trello to organize my thoughts and progress of the game.
