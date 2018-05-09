@@ -1,0 +1,88 @@
+<html>
+
+
+<head>
+    <title>Claudia's App</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <center>
+        <div class="container">
+        <div class="row">
+        <table class="table table-bordered">
+    	<h1>GUESS THE WORD!</h1>
+    	<div id="Message">(Message Popup: You Won! or You Lost!)</div>
+    	<p> Would you like a hint? Press the button below!</p>
+    	<button id="Hint" class="clue">Hint</button>
+    	<div id="#ofletters"></div>
+    	<button id="Hint2" class="clue">Hint #2</button>
+    	<div id="secondhint"></div>
+    	<h2> The chosen word is:</h2>
+    	<div id="name"></div>
+    	<div id="correct"></div>
+    	<form>
+        	<div>
+            	<h1>Pick ONE letter!</h1>
+        	</div>
+
+    	</form>
+
+    	<div id="wrong"></div>
+    	<p>
+        	<p>
+            	<input type='button' id='A' class="alphabet" value="A">
+            	<input type='button' id='B' class="alphabet" value="B">
+            	<input type='button' id='C' class="alphabet" value="C">
+            	<input type='button' id='D' class="alphabet" value="D">
+            	<input type='button' id='E' class="alphabet" value="E">
+            	<input type='button' id='F' class="alphabet" value="F">
+            	<input type='button' id='G' class="alphabet" value="G">
+        	</p>
+        	<p>
+            	<input type='button' id='H' class="alphabet" value="H">
+            	<input type='button' id='I' class="alphabet" value="I">
+            	<input type='button' id='J' class="alphabet" value="J">
+            	<input type='button' id='K' class="alphabet" value="K">
+            	<input type='button' id='L' class="alphabet" value="L">
+            	<input type='button' id='M' class="alphabet" value="M">
+            	<input type='button' id='N' class="alphabet" value="N">
+        	</p>
+        	<p>
+            	<input type='button' id='O' class="alphabet" value="O">
+            	<input type='button' id='P' class="alphabet" value="P">
+            	<input type='button' id='Q' class="alphabet" value="Q">
+            	<input type='button' id='R' class="alphabet" value="R">
+            	<input type='button' id='S' class="alphabet" value="S">
+            	<input type='button' id='T' class="alphabet" value="T">
+            	<input type='button' id='U' class="alphabet" value="U">
+        	</p>
+        	<p>
+            	<input type='button' id='V' class="alphabet" value="V">
+            	<input type='button' id='W' class="alphabet" value="W">
+            	<input type='button' id='X' class="alphabet" value="X">
+            	<input type='button' id='Y' class="alphabet" value="Y">
+            	<input type='button' id='Z' class="alphabet" value="Z">
+        	</p>
+        	<div>
+            	<h1>Used Letters</h1>
+            	<div id="usedLetters">
+            	</div>
+            	<div>
+                	<h1> YOU HAVE THE FOLLOWING NUMBER OF LIVES:
+                    	<h3 id="lives"></h3>
+
+                	</h1>
+            	</div>
+        	</div>
+            </table>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="game.js"></script>
+
+</html>
+
+
